@@ -1,5 +1,5 @@
 //1.Given an array of numbers which is almost sorted in ascending order.  Find the index where sorting order is violated.
-/* 
+
 function isSort (arr){
     let result = -1;
     arr.find(function(el,i,array){
@@ -12,10 +12,11 @@ function isSort (arr){
     return result;
   }
   
-  console.log(isSort([-9, -4, -4, 3, 12, 4, 5])); */
+  console.log(isSort([-9, -4, -4, 3, 12, 4, 5])); 
+
 
 //2.Given an array consisting from the arrays of numbers (like a two-dimensional array). Find sum of each row and print them as an array
-/* 
+
 function twoDimensionalArray(arr) {
   return arr.map(function (el) {
     let sum = 0;
@@ -28,10 +29,10 @@ function twoDimensionalArray(arr) {
 }
 
 console.log(twoDimensionalArray([[ 8, 35, 2], [8], [5, 6, -5 , -6], [1, 3, -9, 0, -1]]));
- */
+ 
 //3.Given an array of integers. Write a function that return new array from first array, where removed even numbers, and odd numbers was multiplied with new array length
 
-/* function oddNumbersMultipliedWithArrLen(arr) {
+ function oddNumbersMultipliedWithArrLen(arr) {
   let newArr = arr
     .filter(function (el) {
       if (el % 2 === 1 || el < 0) {
@@ -46,11 +47,11 @@ console.log(twoDimensionalArray([[ 8, 35, 2], [8], [5, 6, -5 , -6], [1, 3, -9, 0
 }
 
 console.log(oddNumbersMultipliedWithArrLen([5, 4, 78, 0, -3, 7]));
- */
+ 
 
 //4.Given a number. Write a function that calculates its sum of the digits and if that sum has more than 1 digit find the sum of digits of that number.
 //Repeat that process if needed and return the result.
-/* 
+ 
 function sumDigits(number) {
   let sum = 0;
 
@@ -69,10 +70,10 @@ function sum(number) {
 
   return number;
 }
- */
+ 
 
 //5. Write a recursive function which receives  a number as arguments and returns the fibonacci sequence as array.
-/* 
+
 function fibonacci(len) {
   let result = [];
   let num1 = 0;
@@ -90,4 +91,4 @@ function fibonacci(len) {
 }
 
 console.log(fibonacci(10));
- */
+ 
