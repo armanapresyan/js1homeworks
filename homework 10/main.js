@@ -300,14 +300,3 @@ class Teacher extends Person {
   }
 }
 
-const student = new Student(
-  "Some",
-  "One",
-  "male",
-  19,
-  ["matem", "hayoc"],
-  2022,
-  100
-);
-
-console.log(student);
